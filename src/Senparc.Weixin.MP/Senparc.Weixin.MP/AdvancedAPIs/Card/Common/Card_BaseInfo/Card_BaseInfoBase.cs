@@ -211,6 +211,10 @@ namespace Senparc.Weixin.MP.AdvancedAPIs.Card
         /// 会员卡支持微信支付刷卡
         /// </summary>
         public Card_BaseInfo_member_card_PayInfo pay_info { get; set; }
+        /// <summary>
+        /// 自定义Code模式
+        /// </summary>
+        public string get_custom_code_mode { get; set; }
     }
 
     public class Card_BaseInfoBase_SubMerchantInfo
